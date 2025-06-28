@@ -1,4 +1,5 @@
 untracted changes--> staged --> commited
 
 git init --> intialize
-git add 
+git add --> add a file
+git commit --> changes added
