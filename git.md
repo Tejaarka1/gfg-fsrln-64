@@ -10,3 +10,4 @@ git remote add origin https://github.com/Tejaarka1/gfg-fsrln-64 --> added to clo
 git push -u origin <branch-name> --> push to origin <branch-name>
 git pull --> get and update changes from cloud to local
 git merge <branch-name> --> merge changes from this branch to current branch
+git checkout -D <branch-name> --> deletes that branch-name
