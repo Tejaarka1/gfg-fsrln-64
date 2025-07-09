@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --primary-color: #f1c40f;
+    --secondary-color: #ffdc4e;
+    --text-color: #333;
+    --text-color-button: white;
+
+    --background-color: #fff;
+    --default-font-size: 16px;
+}
+
+/* default styles for any font */
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+
+}
+
+button{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+ul{
+    list-style: none;
+}
+
+/* TODO: todo styles */
+/* styles for about page */
+.pg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pg h1 {
+    font-size: 2.5em;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.pg p {
+    font-size: 1.2em;
+    color: #666;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* my fav color:  */
+/* rgb(171, 171, 204) */
+
+/* TODO: todo styles */
+ 
+
